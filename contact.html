@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Contact</title>
+  </head>
+  <body>
+    <video src="Particle.mp4" autoplay="true" loop="true" muted></video>
+    <div class="btn">
+      <a href="index.html"><button id="button-1" type="button"><h5 id="homebutton">Home</h5></button></a>
+    </div>
+    <div class="content">
+			<p class="text-white"><strong>Start a Project: </strong>Interested in working together? Send me an email. Let me know how I can help.</p>
+			<form action="POST" data-netlify="true">
+				<div class="fields">
+					<div class="field half">
+						<input type="text" name="name" id="name" placeholder="Name" />
+					</div>
+					<div class="field">
+						<input type="email" name="email" id="email" placeholder="Email" />
+					</div>
+					<div class="field">
+						<textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+					</div>
+					<div class="field">
+						<input type="file" name="myfile" id="myfile" placeholder="Upload" rows="7"/>
+					</div>
+					<div class="field">
+						<div data-netlify-recaptcha="true"></div>
+					</div>
+				</div>
+				<ul class="actions">
+					<li><input id="message" type="submit" value="Send Message" class="button primary" /></li>
+				</ul>
+			</form>
+		</div>
+    <div class="container">
+      <h2 class="text-white">Contact</h2>
+    </div>
+  </body>
+</html>
